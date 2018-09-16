@@ -39,7 +39,9 @@ class Search extends Component {
           <h3 className="search-header-logo">search page</h3>
         </header>
         <div className="search-conditions">
-          <h1>検索条件</h1>
+          <div className="search-conditions-title">条件</div>
+          <div className="search-conditions-level">Easy</div>
+          <div className="search-conditions-tag">Python</div>
         </div>
         <div className="errormessage">
           <h1>{this.state.errorMessage}</h1>
