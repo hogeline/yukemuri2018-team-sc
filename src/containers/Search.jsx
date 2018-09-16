@@ -6,7 +6,7 @@ class Search extends Component {
     return (
       <div className="Search">
         <header className="Search-header">
-          <h1 className="Search-title">team sc</h1>
+          <h1 className="Search-title">search page</h1>
         </header>
         <p className="Search-intro">hogehoge</p>
       </div>

@@ -1,17 +1,16 @@
-import React, { Component } from "react";
-import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">team sc</h1>
-        </header>
-        <p className="App-intro">hogehoge</p>
-      </div>
-    );
-  }
-}
+import Top from "./Top";
+import Search from "./Search";
+
+const App = () => (
+  <Router>
+    <Switch>
+      <Route exact path="/" component={Top} />
+      <Route exact path="/questions" component={Search} />
+    </Switch>
+  </Router>
+);
 
 export default App;
