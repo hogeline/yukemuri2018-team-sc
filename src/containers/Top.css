@@ -1,15 +1,20 @@
 .top {
     display: flex;
-    width: 100%;
+    width: 100vw;
+    height: 110vh;
+    font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    letter-spacing: 0.08em;
 }
 .top-landing {
     order: 1;
+    background-image: url(".././img/top02.png");
+    background-repeat: no-repeat;
     border-right: 1px solid #000000;
     padding-top: 100px;
     padding-bottom: 100px;
     padding-right: 50px;
-    padding-left: 100px;
-    width: 500px;
+    padding-left: 84px;
+    width: 46%;
 
 }
 .top-landing-logo {
@@ -20,28 +25,77 @@
     font-size: 24px;
 }
 .top-landing-title h1 {
-    font-size: 50px;
+    margin-top: 33vh;
+    font-size: 29px;
+}
+
+.top-landing-title span {
+    padding-left: 34px;
+    font-size: 29px;
+    color: white;
+}
+.top-landing-source{
+    margin-left: 10px;
+}
+.top-landing-detail{
+    font-size: 22px;
+    color: #2E75B6;
+    font-weight: 500;
+}
+
+.top-landing-detail span{
+    color:white;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.top-landing-detail-Emph1{
+    margin-left: 24px;
+}
+
+.top-landing-detail-Emph2{
+    margin-left: 66px;
 }
 .top-landing-source h2 {
-    font-size: 30px;
+    margin-top: 40px;
+    font-size: 35px;
+    color: white;
 }
 .top-search {
     margin: 0 auto;
     order: 1;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-right: 50px;
-    padding-left: 100px;
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 54%;
 }
 .top-search-title h2 {
     font-size: 24px;
 }
-.top-search-conditions {
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.top-search-conditions{
+    font-size: 18px;
     margin: 20px;
-    width: 400px;
-    height: 200px;
+    width: auto;
+    height: 30vh;
     border: 1px solid #bdbbbb;
 }
+.top-search-tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.top-search-levels{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .top-search-btn {
     margin: 0 auto;
     width: 130px;
