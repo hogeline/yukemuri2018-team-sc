@@ -1,15 +1,6 @@
-// const QUESTIONS_LEVEL_ENDPOINT = "https://dev.prog24.com/meta_nasi.json";
-const sentData = {
-  method: "GET",
-  mode: "cors",
-  header: {
-    "Access-Control-Allow-Origin": "*",
-    "Content-Type": "multipart/form-data"
-  },
-  body: ""
-};
+const QUESTIONS_LEVEL_ENDPOINT = "https://dev.prog24.com/meta_nasi.json";
 export const getQuestions = () => {
-  return fetch("https://dev.prog24.com/meta_nasi.json", sentData)
+  return fetch(`${QUESTIONS_LEVEL_ENDPOINT}`, sentData)
     .then(result => result.json())
     .then(resultJson => {
       console.log(resultJson);

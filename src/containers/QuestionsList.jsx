@@ -3,10 +3,11 @@ import PropTypes from "prop-types";
 
 import QuestionCard from "./QuestionCard";
 
-const QuestionsList = ({ questions }) => (
+const QuestionsList = questions => (
   <div className="questions">
     <div className="container">
-      {questions.map(question => (
+      {console.log(questions["questions"])}
+      {questions["questions"].map(question => (
         <QuestionCard key={question.id} question={question} />
       ))}
     </div>

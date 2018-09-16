@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 
 import QuestionsList from "./QuestionsList";
-import { getQuestions } from "../apiutil/GetQuestions";
-
+// import { getQuestions } from "../apiutil/GetQuestions";
+import dummy from "../dummy.json";
 import "./Search.css";
 
 class Search extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      errorMessage: ""
+      errorMessage: "",
+      questions: dummy["questions"]
     };
   }
   // エラーメッセージをsateにセットする
@@ -18,6 +19,7 @@ class Search extends Component {
   }
 
   // ReactのAPI処理はapiutilを参照
+  /*
   componentDidMount() {
     getQuestions()
       .then(questions => {
@@ -28,6 +30,7 @@ class Search extends Component {
         this.setErrorMessage("通信に失敗しました");
       });
   }
+  */
 
   render() {
     return (
