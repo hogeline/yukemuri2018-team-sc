@@ -1,0 +1,36 @@
+version: 2
+jobs:
+  build:
+    docker:
+      # CircleCI2はdockerコンテナで動くので動作させるイメージファイルを指定します。
+      # DockerHub上にあるイメージ指定します。nodeだと https://hub.docker.com/r/circleci/node/
+      - image: circleci/node:8.11.0
+
+    # コンテナ上での作業ディレクトリです。
+    working_directory: ~/repo
+    steps:
+      # githubからチェックアウト
+      - checkout
+
+      # キャッシュの読み込み。下の方でnode_modules/以下をキャッシュする設定している。
+      # キャッシュの区別にpackage.jsonじゃなくてyarn.lockファイルを使った方がいい気もする。
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run: yarn install
+
+      # yarn installでインストールしたモジュールをnode_modulesごとキャッシュ。
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      # テスト
+      - run: yarn test
+
+      # ビルド
+      - run: yarn build
+

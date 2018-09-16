@@ -2,6 +2,9 @@
   "name": "yukemuri2018-team-sc",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=8.11.0 <8.11.3"
+  },
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.5.1",
