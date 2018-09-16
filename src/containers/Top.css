@@ -1,7 +1,6 @@
 .top {
     display: flex;
-    max-width: 1200px;
-    height: 900px;
+    width: 100%;
 }
 .top-landing {
     order: 1;
@@ -10,7 +9,8 @@
     padding-bottom: 100px;
     padding-right: 50px;
     padding-left: 100px;
-    
+    width: 500px;
+
 }
 .top-landing-logo {
     text-align: center;
@@ -48,6 +48,7 @@
     height: 40px;
     line-height: 40px;
     border-radius: 5px;
+    cursor: pointer;
     color: white;
     background-color: #44c268
 }
