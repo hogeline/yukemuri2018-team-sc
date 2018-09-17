@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "id": 146897,
+      "level": "中",
+      "title": "rails oracleDB 異なるスキーマに存在するテーブルのアソシエーション",
+      "created": "2018-09-16 17:15:33",
+      "modified": "2018-09-16 17:20:20",
+      "count_reply": 0,
+      "count_clip": 0,
+      "count_pv": 10,
+      "is_beginner": false,
+      "is_accepted": false,
+      "is_presentation": false,
+      "tags": [
+        "Ruby",
+        "Oracle",
+        "Oracle Database 11g",
+        "Oracle Database",
+        "Ruby on Rails 5"
+      ],
+      "user": {
+        "display_name": "NOTHER_ACK",
+        "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u7/75205/Jurz7xq7_thumbnail.jpg",
+        "score": 12
+      }
+    },
+    {
+      "id": 146883,
+      "level": "中",
+      "title": "form_tagを使用し入力した情報を保存しようてしたのだが、うまく保存されない",
+      "created": "2018-09-16 15:39:24",
+      "modified": "2018-09-16 15:39:24",
+      "count_reply": 0,
+      "count_clip": 0,
+      "count_pv": 9,
+      "is_beginner": false,
+      "is_accepted": false,
+      "is_presentation": false,
+      "tags": ["Ruby", "Ruby on Rails 5"],
+      "user": {
+        "display_name": "noburinburin",
+        "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/92389/DuTn9nr0_thumbnail.jpg",
+        "score": 2
+      }
+    },
+    {
+      "id": 146882,
+      "level": "中",
+      "title": "RailsでUserのageを更新するタイミング",
+      "created": "2018-09-16 15:36:54",
+      "modified": "2018-09-16 15:36:54",
+      "count_reply": 0,
+      "count_clip": 0,
+      "count_pv": 7,
+      "is_beginner": false,
+      "is_accepted": false,
+      "is_presentation": false,
+      "tags": ["Ruby", "Ruby on Rails", "Ruby on Rails 5"],
+      "user": {
+        "display_name": "Atsukyyy",
+        "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u5/57309/ecebbecf28c2692a_thumbnail.jpg",
+        "score": 2
+      }
+    }
+  ]
+}
