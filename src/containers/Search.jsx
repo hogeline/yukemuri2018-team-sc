@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-import queryString from "query-string";
 
 import QuestionsList from "./QuestionsList";
 import Header from "./Header";
 // import { getQuestions } from "../apiutil/GetQuestions";
 import dummy from "../dummy.json";
-import laravel from "../laravel.json";
-import nginx from "../nginx.json";
-import python from "../python.json";
-import swift from "../swift.json";
 import "./Search.css";
 
 class Search extends Component {
@@ -39,26 +34,13 @@ class Search extends Component {
   */
 
   render() {
-    var questions = null;
-    var level = null;
-    if(queryString.parse(this.props.location.search).tag === "nginx"){
-      questions = nginx;
-    }else if(queryString.parse(this.props.location.search).tag === "laravel"){
-      questions = laravel;
-    }else if(queryString.parse(this.props.location.search).tag === "python"){
-      questions = python;
-    }else if(queryString.parse(this.props.location.search).tag === "swift"){
-      questions = swift;
-    }
-    level = queryString.parse(this.props.location.search).level;
-
     return (
       <div className="search">
         <Header />
         <div className="errormessage">
           <h1>{this.state.errorMessage}</h1>
         </div>
-        <QuestionsList level={level} questions={questions} />
+        <QuestionsList questions={this.state.questions} />
       </div>
     );
   }
