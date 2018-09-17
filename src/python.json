@@ -1,0 +1,1016 @@
+{
+  "questions": [
+    {
+        "id": 146980,
+        "level": "normal",
+        "title": "python kivyでsdl2のインポートエラー",
+        "created": "2018-09-17 02:43:57",
+        "modified": "2018-09-17 02:50:34",
+        "count_reply": 0,
+        "count_clip": 0,
+        "count_pv": 14,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Python 3.x",
+            "PyCharm",
+            "SDL2 (Simple DirectMedia Layer2)",
+            "Kivy"
+        ],
+        "user": {
+            "display_name": "goldthisplay",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u10/100654/gdOjfuN4_thumbnail.jpg",
+            "score": 0
+        }
+    },
+    {
+        "id": 146967,
+        "level": "normal",
+        "title": "matplotlibのquiverの各ベクトルに個別に色を設定したい",
+        "created": "2018-09-17 00:24:41",
+        "modified": "2018-09-17 00:24:41",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 20,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Matplotlib"
+        ],
+        "user": {
+            "display_name": "ruei",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/97558/ZlxTULec_thumbnail.jpg",
+            "score": 51
+        }
+    },
+    {
+        "id": 146921,
+        "level": "normal",
+        "title": "anacondaをインストールしてもanaconda prompt しかスタート画面に現れない",
+        "created": "2018-09-16 19:12:10",
+        "modified": "2018-09-16 19:16:14",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 58,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Python 3.x",
+            "Jupyter",
+            "Anaconda"
+        ],
+        "user": {
+            "display_name": "zoo.zoo",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u10/100626/LAW0WNlF_thumbnail.jpg",
+            "score": 0
+        }
+    },
+    {
+        "id": 146873,
+        "level": "normal",
+        "title": "【Tensorflow】機械学習チュートリアルでretrain.pyを動かしても学習データが認識されない",
+        "created": "2018-09-16 14:32:10",
+        "modified": "2018-09-16 14:32:10",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 52,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Python 3.x",
+            "機械学習",
+            "TensorFlow"
+        ],
+        "user": {
+            "display_name": "entry4code",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u7/70229/095c58b59e1d37da_thumbnail.png",
+            "score": 5
+        }
+    },
+    {
+        "id": 146869,
+        "level": "normal",
+        "title": "Raspberry Piでカメラモデュールで写真を撮ろうとしても、データが保存されない",
+        "created": "2018-09-16 13:54:01",
+        "modified": "2018-09-16 14:02:42",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 56,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Raspberry Pi"
+        ],
+        "user": {
+            "display_name": "kkota",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u8/86616/rhJVrLCX_thumbnail.jpg",
+            "score": 1
+        }
+    },
+    {
+        "id": 146841,
+        "level": "normal",
+        "title": "pyinstallerでのエラー",
+        "created": "2018-09-16 10:39:09",
+        "modified": "2018-09-16 10:46:12",
+        "count_reply": 0,
+        "count_clip": 0,
+        "count_pv": 53,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python"
+        ],
+        "user": {
+            "display_name": "LenItsuki",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/98873/aPTSdGnV_thumbnail.jpg",
+            "score": 31
+        }
+    },
+    {
+        "id": 146820,
+        "level": "normal",
+        "title": "monodepthのプログラムを動かしたいです",
+        "created": "2018-09-16 03:03:04",
+        "modified": "2018-09-16 03:03:04",
+        "count_reply": 0,
+        "count_clip": 0,
+        "count_pv": 33,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "TensorFlow"
+        ],
+        "user": {
+            "display_name": "deya",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u10/100163/TsQwLwFk_thumbnail.jpg",
+            "score": 0
+        }
+    },
+    {
+        "id": 146790,
+        "level": "normal",
+        "title": "ipython のファイルについて",
+        "created": "2018-09-15 21:32:43",
+        "modified": "2018-09-15 21:32:43",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 54,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Anaconda"
+        ],
+        "user": {
+            "display_name": "mipythonwa",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u7/72076/GhA6k5ZJ_thumbnail.jpg",
+            "score": 17
+        }
+    },
+    {
+        "id": 146786,
+        "level": "normal",
+        "title": "http://127.0.0.1:4444/wd/hub にアクセスできない",
+        "created": "2018-09-15 21:00:28",
+        "modified": "2018-09-15 21:00:28",
+        "count_reply": 0,
+        "count_clip": 0,
+        "count_pv": 59,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Python 3.x",
+            "Webサーバー",
+            "selenium",
+            "Windows 10"
+        ],
+        "user": {
+            "display_name": "unowen",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u10/100553/6a41ecd81cfe84b2_thumbnail.gif",
+            "score": 3
+        }
+    },
+    {
+        "id": 146780,
+        "level": "normal",
+        "title": "pythonでの組み合わせをするコードについて",
+        "created": "2018-09-15 20:12:45",
+        "modified": "2018-09-15 20:13:21",
+        "count_reply": 5,
+        "count_clip": 0,
+        "count_pv": 100,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python"
+        ],
+        "user": {
+            "display_name": "ilovearchlinux",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/96189/Mpe2ZTTY_thumbnail.jpg",
+            "score": 0
+        }
+    },
+    {
+        "id": 146777,
+        "level": "normal",
+        "title": "Django 多対多（N対N）のテーブルのレコード取得",
+        "created": "2018-09-15 19:36:12",
+        "modified": "2018-09-17 09:02:22",
+        "count_reply": 0,
+        "count_clip": 0,
+        "count_pv": 22,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Django"
+        ],
+        "user": {
+            "display_name": "km_",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/91767/pp0L2lk3_thumbnail.jpg",
+            "score": 2
+        }
+    },
+    {
+        "id": 146763,
+        "level": "normal",
+        "title": "サーボが動くようにpythonプログラムを直してほしい",
+        "created": "2018-09-15 17:37:57",
+        "modified": "2018-09-15 17:37:57",
+        "count_reply": 0,
+        "count_clip": 0,
+        "count_pv": 41,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python"
+        ],
+        "user": {
+            "display_name": "Tatsuyal",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/98214/5hiLVLwG_thumbnail.jpg",
+            "score": 0
+        }
+    },
+    {
+        "id": 146762,
+        "level": "normal",
+        "title": "Unity上でPythonのモジュールを使いたいです。",
+        "created": "2018-09-15 17:37:05",
+        "modified": "2018-09-15 18:33:28",
+        "count_reply": 0,
+        "count_clip": 0,
+        "count_pv": 96,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "C#",
+            "Python",
+            "Unity"
+        ],
+        "user": {
+            "display_name": "yama0408",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u10/100563/eCTuQItC_thumbnail.jpg",
+            "score": 0
+        }
+    },
+    {
+        "id": 146723,
+        "level": "normal",
+        "title": "djangoのユーザーをカスタムしたい",
+        "created": "2018-09-15 12:54:15",
+        "modified": "2018-09-15 12:58:04",
+        "count_reply": 0,
+        "count_clip": 0,
+        "count_pv": 30,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Django",
+            "Python 3.x"
+        ],
+        "user": {
+            "display_name": "wowow",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/91436/MdREZmUm_thumbnail.jpg",
+            "score": 3
+        }
+    },
+    {
+        "id": 146682,
+        "level": "normal",
+        "title": "pythonプログラムの間違いを直してほしい",
+        "created": "2018-09-15 00:27:56",
+        "modified": "2018-09-15 12:49:46",
+        "count_reply": 2,
+        "count_clip": 0,
+        "count_pv": 276,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "JavaScript",
+            "Python",
+            "Raspberry Pi"
+        ],
+        "user": {
+            "display_name": "Tatsuyal",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/98214/5hiLVLwG_thumbnail.jpg",
+            "score": 0
+        }
+    },
+    {
+        "id": 146662,
+        "level": "normal",
+        "title": "subprocessの戻り値を改行で出力",
+        "created": "2018-09-14 21:16:25",
+        "modified": "2018-09-14 21:16:25",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 37,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Linux"
+        ],
+        "user": {
+            "display_name": "pocket8137",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u6/67443/PhC0VfYi_thumbnail.jpg",
+            "score": 33
+        }
+    },
+    {
+        "id": 146657,
+        "level": "normal",
+        "title": "go言語でスライスを別の識別子として複製する方法（pythonの空スライス）",
+        "created": "2018-09-14 20:29:44",
+        "modified": "2018-09-14 20:54:34",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 108,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Go",
+            "ポインタ"
+        ],
+        "user": {
+            "display_name": "go0x",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/99337/848d04093bf01b65_thumbnail.png",
+            "score": 3
+        }
+    },
+    {
+        "id": 146643,
+        "level": "normal",
+        "title": "findcontours関数で白い領域のみを抽出する方法について",
+        "created": "2018-09-14 18:49:23",
+        "modified": "2018-09-14 18:49:23",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 47,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "OpenCV"
+        ],
+        "user": {
+            "display_name": "Kohei_KESE",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/99633/KgTJkc4x_thumbnail.jpg",
+            "score": 5
+        }
+    },
+    {
+        "id": 146641,
+        "level": "normal",
+        "title": "[Python]pip で OSError:Operating system not supported at this time",
+        "created": "2018-09-14 18:30:35",
+        "modified": "2018-09-14 18:30:35",
+        "count_reply": 2,
+        "count_clip": 0,
+        "count_pv": 69,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Python 3.x"
+        ],
+        "user": {
+            "display_name": "pigton",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/95149/eSKbhoKM_thumbnail.jpg",
+            "score": 22
+        }
+    },
+    {
+        "id": 146632,
+        "level": "normal",
+        "title": "qutipの環境設定がうまくいかない",
+        "created": "2018-09-14 18:04:46",
+        "modified": "2018-09-14 18:12:05",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 38,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Python 3.x"
+        ],
+        "user": {
+            "display_name": "Quantum_walker",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u8/87088/6a29c40cef508ee1_thumbnail.png",
+            "score": 51
+        }
+    },
+    {
+        "id": 146624,
+        "level": "beginner",
+        "title": "Pythonでndarrayのテストがしたい．",
+        "created": "2018-09-14 17:15:06",
+        "modified": "2018-09-14 17:15:06",
+        "count_reply": 2,
+        "count_clip": 0,
+        "count_pv": 52,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "NumPy",
+            "Python 3.x"
+        ],
+        "user": {
+            "display_name": "diohabara",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/98057/8qlJKqP7_thumbnail.jpg",
+            "score": 6
+        }
+    },
+    {
+        "id": 146605,
+        "level": "beginner",
+        "title": "Negative log likelihoodが負値をとってしまう",
+        "created": "2018-09-14 16:03:10",
+        "modified": "2018-09-14 16:38:25",
+        "count_reply": 0,
+        "count_clip": 0,
+        "count_pv": 43,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Chainer"
+        ],
+        "user": {
+            "display_name": "npkk",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/90284/Laqd620Z_thumbnail.jpg",
+            "score": 17
+        }
+    },
+    {
+        "id": 146600,
+        "level": "beginner",
+        "title": "[Python]structモジュールを利用したzipファイルの解凍",
+        "created": "2018-09-14 15:34:46",
+        "modified": "2018-09-14 15:34:46",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 48,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Python 3.x"
+        ],
+        "user": {
+            "display_name": "pigton",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/95149/eSKbhoKM_thumbnail.jpg",
+            "score": 22
+        }
+    },
+    {
+        "id": 146584,
+        "level": "beginner",
+        "title": "cronでpython実行（Ubuntu16.04）",
+        "created": "2018-09-14 14:40:01",
+        "modified": "2018-09-14 14:40:01",
+        "count_reply": 2,
+        "count_clip": 0,
+        "count_pv": 58,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "cron",
+            "Ubuntu"
+        ],
+        "user": {
+            "display_name": "quiqui59911225",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u10/100419/zH9qLfai_thumbnail.jpg",
+            "score": 0
+        }
+    },
+    {
+        "id": 146560,
+        "level": "beginner",
+        "title": "cでpython呼び出しを行った結果",
+        "created": "2018-09-14 12:28:46",
+        "modified": "2018-09-14 12:32:54",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 115,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "C"
+        ],
+        "user": {
+            "display_name": "uriuri",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u8/80507/hb5Jx9uz_thumbnail.jpg",
+            "score": 34
+        }
+    },
+    {
+        "id": 146536,
+        "level": "beginner",
+        "title": "UnicodeDecodeErrorの直し方を知りたい",
+        "created": "2018-09-14 11:18:27",
+        "modified": "2018-09-14 11:32:01",
+        "count_reply": 2,
+        "count_clip": 0,
+        "count_pv": 73,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Python 3.x"
+        ],
+        "user": {
+            "display_name": "pippip",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/98730/2d6090d5590102eb_thumbnail.jpg",
+            "score": 17
+        }
+    },
+    {
+        "id": 146528,
+        "level": "beginner",
+        "title": "Pythonのドキュメントをローカルで高速に読むテクニックを知りたい",
+        "created": "2018-09-14 10:27:28",
+        "modified": "2018-09-14 10:27:28",
+        "count_reply": 5,
+        "count_clip": 0,
+        "count_pv": 112,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Python 3.x"
+        ],
+        "user": {
+            "display_name": "hiroga",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u2/25399/fb2e91a840295d27_thumbnail.png",
+            "score": 33
+        }
+    },
+    {
+        "id": 146524,
+        "level": "beginner",
+        "title": "Pythonの超初級編をお教えください。",
+        "created": "2018-09-14 10:17:38",
+        "modified": "2018-09-14 10:19:50",
+        "count_reply": 3,
+        "count_clip": 0,
+        "count_pv": 157,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python"
+        ],
+        "user": {
+            "display_name": "TKN0404",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u10/100427/ENhZ6RIq_thumbnail.jpg",
+            "score": 1
+        }
+    },
+    {
+        "id": 146523,
+        "level": "beginner",
+        "title": "二値変数も正規化する？？",
+        "created": "2018-09-14 10:15:30",
+        "modified": "2018-09-14 10:15:30",
+        "count_reply": 1,
+        "count_clip": 1,
+        "count_pv": 57,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "R",
+            "Python 3.x",
+            "機械学習"
+        ],
+        "user": {
+            "display_name": "Dai_tkd",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u10/100297/LqYTC7Bn_thumbnail.jpg",
+            "score": 2
+        }
+    },
+    {
+        "id": 146439,
+        "level": "beginner",
+        "title": "pyautoguiモジュールについての質問",
+        "created": "2018-09-13 19:37:06",
+        "modified": "2018-09-13 19:37:06",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 35,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Python 3.x",
+            "RPA"
+        ],
+        "user": {
+            "display_name": "dkymmmmmt",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/95310/ma8QrVTd_thumbnail.jpg",
+            "score": 16
+        }
+    },
+    {
+        "id": 146420,
+        "level": "beginner",
+        "title": "djangoのRest frameworkをカスタムしたい",
+        "created": "2018-09-13 18:16:06",
+        "modified": "2018-09-13 18:18:13",
+        "count_reply": 0,
+        "count_clip": 1,
+        "count_pv": 33,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Django",
+            "Python 3.x",
+            "REST"
+        ],
+        "user": {
+            "display_name": "wowow",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/91436/MdREZmUm_thumbnail.jpg",
+            "score": 3
+        }
+    },
+    {
+        "id": 146410,
+        "level": "beginner",
+        "title": "ChainerのEvaluatorが使えない",
+        "created": "2018-09-13 17:12:23",
+        "modified": "2018-09-13 17:20:06",
+        "count_reply": 0,
+        "count_clip": 0,
+        "count_pv": 33,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Chainer"
+        ],
+        "user": {
+            "display_name": "nematoda",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/99618/yFU4sEbC_thumbnail.jpg",
+            "score": 1
+        }
+    },
+    {
+        "id": 146406,
+        "level": "beginner",
+        "title": "JavascriptとPythonでの変数の共有について",
+        "created": "2018-09-13 17:05:25",
+        "modified": "2018-09-13 17:05:25",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 354,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "JavaScript",
+            "Python",
+            "Electron"
+        ],
+        "user": {
+            "display_name": "tsr",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/96886/qsrizEF0_thumbnail.jpg",
+            "score": 1
+        }
+    },
+    {
+        "id": 146363,
+        "level": "beginner",
+        "title": "cでpythonを呼び出し",
+        "created": "2018-09-13 14:10:21",
+        "modified": "2018-09-13 17:00:32",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 93,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "C"
+        ],
+        "user": {
+            "display_name": "uriuri",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u8/80507/hb5Jx9uz_thumbnail.jpg",
+            "score": 34
+        }
+    },
+    {
+        "id": 146342,
+        "level": "beginner",
+        "title": "numpyに動画を読み込ませた時のMemoryErrorについて",
+        "created": "2018-09-13 12:36:37",
+        "modified": "2018-09-13 12:36:37",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 55,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "NumPy",
+            "OpenCV"
+        ],
+        "user": {
+            "display_name": "V1T4N",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u10/100386/d26f92c9a6518e06_thumbnail.jpg",
+            "score": 0
+        }
+    },
+    {
+        "id": 146339,
+        "level": "beginner",
+        "title": "入力信号の基本周波数を求めたい",
+        "created": "2018-09-13 12:11:39",
+        "modified": "2018-09-13 12:11:39",
+        "count_reply": 2,
+        "count_clip": 0,
+        "count_pv": 85,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "NumPy",
+            "Python 2.7",
+            "Python 3.x",
+            "pandas"
+        ],
+        "user": {
+            "display_name": "Inu-Shiba",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/98628/D3Tu4AVM_thumbnail.jpg",
+            "score": 6
+        }
+    },
+    {
+        "id": 146328,
+        "level": "beginner",
+        "title": "どのような多面体かを知るコード",
+        "created": "2018-09-13 11:17:27",
+        "modified": "2018-09-13 11:17:27",
+        "count_reply": 3,
+        "count_clip": 0,
+        "count_pv": 222,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "C",
+            "MATLAB",
+            "Mathematica"
+        ],
+        "user": {
+            "display_name": "wintssk",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u5/56716/LXbKaqIX_thumbnail.jpg",
+            "score": 2
+        }
+    },
+    {
+        "id": 146323,
+        "level": "beginner",
+        "title": "物体の認識をさせたいとき",
+        "created": "2018-09-13 10:32:04",
+        "modified": "2018-09-13 10:32:04",
+        "count_reply": 1,
+        "count_clip": 1,
+        "count_pv": 70,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "機械学習"
+        ],
+        "user": {
+            "display_name": "jun_endo",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/93329/UlG58YVt_thumbnail.jpg",
+            "score": 39
+        }
+    },
+    {
+        "id": 146274,
+        "level": "beginner",
+        "title": "モジュールが読み込めない",
+        "created": "2018-09-12 23:50:30",
+        "modified": "2018-09-12 23:54:25",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 63,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Anaconda"
+        ],
+        "user": {
+            "display_name": "yabu0305",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/99280/04Z4ij30_thumbnail.jpg",
+            "score": 3
+        }
+    },
+    {
+        "id": 146267,
+        "level": "beginner",
+        "title": "カレントディレクトリを変更するときに移動したいフォルダをドロップして絶対パスがそのまま実行できない。",
+        "created": "2018-09-12 22:49:16",
+        "modified": "2018-09-13 12:59:29",
+        "count_reply": 2,
+        "count_clip": 0,
+        "count_pv": 136,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python"
+        ],
+        "user": {
+            "display_name": "tetukou",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u10/100299/S1g0no5Y_thumbnail.jpg",
+            "score": 0
+        }
+    },
+    {
+        "id": 146245,
+        "level": "expert",
+        "title": "Python PairGridのエラー",
+        "created": "2018-09-12 20:04:19",
+        "modified": "2018-09-12 20:13:20",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 37,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python"
+        ],
+        "user": {
+            "display_name": "Fuma315",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u10/100336/vEOR6vG6_thumbnail.jpg",
+            "score": 0
+        }
+    },
+    {
+        "id": 146242,
+        "level": "expert",
+        "title": "plotlyで2つのグラフを重ねて表示したときにx軸を揃えて表示したい",
+        "created": "2018-09-12 19:38:52",
+        "modified": "2018-09-12 19:38:52",
+        "count_reply": 2,
+        "count_clip": 0,
+        "count_pv": 42,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python"
+        ],
+        "user": {
+            "display_name": "murmur1975",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/99656/FF8R5bVp_thumbnail.jpg",
+            "score": 16
+        }
+    },
+    {
+        "id": 146229,
+        "level": "expert",
+        "title": "jupyter notebook のテーマ変更での不具合",
+        "created": "2018-09-12 18:06:58",
+        "modified": "2018-09-13 11:53:02",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 74,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Jupyter",
+            "Anaconda"
+        ],
+        "user": {
+            "display_name": "Gintyan",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/90896/oqh0Gtk2_thumbnail.jpg",
+            "score": 1
+        }
+    },
+    {
+        "id": 146193,
+        "level": "expert",
+        "title": "ngram カウントの実装",
+        "created": "2018-09-12 16:09:00",
+        "modified": "2018-09-12 16:09:00",
+        "count_reply": 0,
+        "count_clip": 0,
+        "count_pv": 51,
+        "is_beginner": false,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Python 3.x"
+        ],
+        "user": {
+            "display_name": "rysy_9",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/93125/69fe51a046fb8b73_thumbnail.PNG",
+            "score": 6
+        }
+    },
+    {
+        "id": 146155,
+        "level": "expert",
+        "title": "Pyproj:一点から複数の点の距離を求めたい",
+        "created": "2018-09-12 12:55:19",
+        "modified": "2018-09-12 13:29:30",
+        "count_reply": 1,
+        "count_clip": 0,
+        "count_pv": 69,
+        "is_beginner": true,
+        "is_accepted": false,
+        "is_presentation": false,
+        "tags": [
+            "Python",
+            "Python 3.x"
+        ],
+        "user": {
+            "display_name": "Ykkykk",
+            "photo": "https://teratail.storage.googleapis.com/uploads/avatars/u9/96891/RgTweK8f_thumbnail.jpg",
+            "score": 26
+        }
+    }
+  ]
+}

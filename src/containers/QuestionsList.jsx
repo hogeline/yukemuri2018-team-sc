@@ -4,10 +4,9 @@ import "./QuestionsList.css"
 
 import QuestionCard from "./QuestionCard";
 
-const QuestionsList = questions => (
+const QuestionsList = ({questions, level}) => (
   <div className="questions">
     <div className="questions-container">
-      {console.log(questions["questions"])}
       {questions["questions"].map(question => (
         <QuestionCard key={question.id} question={question} />
       ))}
@@ -16,7 +15,8 @@ const QuestionsList = questions => (
 );
 
 QuestionsList.propTypes = {
-  questions: PropTypes.arrayOf(PropTypes.any)
+  level: PropTypes.any,
+  questions: PropTypes.any
 };
 
 QuestionsList.defaultProps = {
