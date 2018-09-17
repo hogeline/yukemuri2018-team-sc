@@ -1,0 +1,30 @@
+header {
+  /* height: 60px; */
+  background-color: #404040;
+  color: #fff;
+}
+
+header {
+  /* line-height: 100px; */
+  width: 100%;
+}
+
+.header{
+
+}
+.title{
+  line-height: 100px;
+  width: 200px;
+  padding-left: 30px;
+  display: inline-block;
+}
+.search-select{
+  padding-right: 30px;
+  display: inline-block;
+}
+.select-box{
+  display: inline;
+}
+.tag{
+  float: left;
+}
