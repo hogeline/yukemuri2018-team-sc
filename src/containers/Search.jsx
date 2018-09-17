@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import QuestionsList from "./QuestionsList";
-import Header from "./Header"
+import Header from "./Header";
 // import { getQuestions } from "../apiutil/GetQuestions";
 import dummy from "../dummy.json";
 import "./Search.css";
@@ -37,11 +37,6 @@ class Search extends Component {
     return (
       <div className="search">
         <Header />
-        <div className="search-conditions">
-          <div className="search-conditions-title">条件</div>
-          <div className="search-conditions-level">Easy</div>
-          <div className="search-conditions-tag">Python</div>
-        </div>
         <div className="errormessage">
           <h1>{this.state.errorMessage}</h1>
         </div>
