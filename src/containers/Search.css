@@ -1,13 +1,3 @@
-header {
-    height: 60px;
-    background-color: #aba6a6
-}
-
-header {
-    line-height: 60px;
-    padding-left: 50px; 
-}
-
 .search-conditions {
     display: flex;
     padding-left: 50px;
