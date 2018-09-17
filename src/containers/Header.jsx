@@ -9,31 +9,34 @@ class Header extends Component {
         <div className="title">rankedtail</div>
         <div className="search-select">
           <div className="tag">条件</div>
-          質問レベル<br/>
-                <div className="top-search-levels">
-                  <input type="radio" name="level" value="beginner" checked="checked"/>ビギナー
-                  <input type="radio" name="level" value="normal"/>ノーマル
-                  <input type="radio" name="level" value="expert"/>エキスパート
+            <div>
+              質問レベル<br/>
+                <div className="header-search-levels">
+                  <input type="radio" id="label-beginner" name="level" value="beginner"/><label for="label-beginner">ビギナー</label>
+                  <input type="radio" id="label-normal" name="level" value="normal"/><label for="label-normal">ノーマル</label>
+                  <input type="radio" id="label-expert" name="level" value="expert"/><label for="label-expert">エキスパート</label>
                 </div>
-                絞り込みタグ<br/>
-                <div className="top-search-tags">          
-                  <div><input type="radio" name="tag" value="CakePHP" checked="checked"/>CakePHP </div>
-                  <div><input type="radio" name="tag" value="Laravel"/>Laravel </div>
-                  <div><input type="radio" name="tag" value="Perl"/>Perl</div>
-                  <div><input type="radio" name="tag" value="AngularJS"/>AngularJS</div>
-                  <div><input type="radio" name="tag" value="Oracle"/>Oracle</div>
-                  <div><input type="radio" name="tag" value="Eclipse"/>Eclipse</div>
-                  <div><input type="radio" name="tag" value="Apache"/>Apache</div>
-                  <div><input type="radio" name="tag" value="CentOS"/>CentOS</div>
-                  <div><input type="radio" name="tag" value="Struts"/>Struts</div>
-                  <div><input type="radio" name="tag" value="Vim"/>Vim</div>
-                  <div><input type="radio" name="tag" value="Python"/>Python</div>
-                  <div><input type="radio" name="tag" value="Swift"/>Swift</div>
-                  <div><input type="radio" name="tag" value="CSS3"/>CSS3</div>
-                  <div><input type="radio" name="tag" value="nginx"/>nginx</div>
-                  <div><input type="radio" name="tag" value="Linux"/>Linux</div>
-                </div>
+              </div>
+              絞り込みタグ<br/>
+              <div className="header-search-tags">          
+                <div><input type="radio" name="tag" id="label-CakePHP" value="CakePHP"/><label for="label-CakePHP">CakePHP</label></div>
+                <div><input type="radio" name="tag" id="label-Laravel" value="Laravel"/><label for="label-Laravel">Laravel </label></div>
+                <div><input type="radio" name="tag" id="label-Perl" value="Perl"/><label for="label-Perl">Perl</label></div>
+                <div><input type="radio" name="tag" id="label-AngularJS" value="AngularJS"/><label for="label-AngularJS">AngularJS</label></div>
+                <div><input type="radio" name="tag" id="label-Oracle" value="Oracle"/><label for="label-Oracle">Oracle</label></div>
+                <div><input type="radio" name="tag" id="label-Eclipse" value="Eclipse"/><label for="label-Eclipse">Eclipse</label></div>
+                <div><input type="radio" name="tag" id="label-Apache" value="Apache"/><label for="label-Apache">Apache</label></div>
+                <div><input type="radio" name="tag" id="label-CentOS" value="CentOS"/><label for="label-CentOS">CentOS</label></div>
+                <div><input type="radio" name="tag" id="label-Struts" value="Struts"/><label for="label-Struts">Struts</label></div>
+                <div><input type="radio" name="tag" id="label-Vim" value="Vim"/><label for="label-Vim">Vim</label></div>
+                <div><input type="radio" name="tag" id="label-Python" value="Python"/><label for="label-Python">Python</label></div>
+                <div><input type="radio" name="tag" id="label-Swift" value="Swift"/><label for="label-Swift">Swift</label></div>
+                <div><input type="radio" name="tag" id="label-CSS3" value="CSS3"/><label for="label-CSS3">CSS3</label></div>
+                <div><input type="radio" name="tag" id="label-nginx" value="nginx"/><label for="label-nginx">nginx</label></div>
+                <div><input type="radio" name="tag" id="label-Linux" value="Linux"/><label for="label-Linux">Linux</label></div>
+              </div>
         </div>
+        <div className="re-search-btn">再検索</div>
       </header>
     )
   }

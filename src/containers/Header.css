@@ -7,24 +7,103 @@ header {
 header {
   /* line-height: 100px; */
   width: 100%;
+  display: flex;
 }
 
 .header{
-
 }
 .title{
+  font-family: 'Hiragino Kaku Gothic Pro';
   line-height: 100px;
-  width: 200px;
-  padding-left: 30px;
-  display: inline-block;
+  font-size: 50px;
+  padding: 50px 28px;
 }
 .search-select{
-  padding-right: 30px;
-  display: inline-block;
+  padding: 8px 20px;
+  
 }
 .select-box{
   display: inline;
 }
 .tag{
   float: left;
+}
+.header-search-levels{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.header-search-levels label{
+  color: #222;
+  padding: 10px 0;
+  width: 32%;
+  text-align: center;
+  background-color: #ccc;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.header-search-levels label:hover{
+  background-color: white;
+}
+
+.header-search-levels input[type="radio"]:checked + label {
+  color: white;
+  background-color: #5280ff;
+  border: 1px solid #ccc;
+}
+.header-search-levels input{
+  display: none;
+}
+
+.header-search-tags input{
+  display: none;
+}
+.header-search-tags{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: row;
+  align-content: space-between;
+  height: 10vh;
+}
+
+.header-search-tags label{
+  color: #222;
+
+  margin-right: 5px;
+  background-color: #ccc;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+}
+
+.header-search-tags label:hover{
+  background-color: white;
+}
+.header-search-tags input[type="radio"]:checked + label {
+  color: white;
+  background-color: #5280ff;
+  border: 1px solid #ccc;
+}
+
+
+.re-search-btn {
+  margin: 0px 30px;
+  padding: 20px 12px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 80px;
+  border-bottom: 2px solid #00992b;
+  border-right: 4px solid #007522;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: #44c268
 }
