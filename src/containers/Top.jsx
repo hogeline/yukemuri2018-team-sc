@@ -24,7 +24,7 @@ class Top extends Component {
   }
 
   handleOnClickedSearch(history) {
-    if (this.state.tag == "" || this.state.level == "") {
+    if (this.state.tag === "" || this.state.level === "") {
       this.setState({ errorMessage: "レベルとタグを選択してください" });
       return;
     }
