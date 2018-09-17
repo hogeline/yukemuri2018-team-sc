@@ -1,0 +1,25 @@
+.question{
+    background-color: white;
+    width: 100%;
+    border: 1px solid #bdbbbb;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 28px;
+    text-align: left;
+
+}
+.question a{
+    text-decoration: none;
+    color: #3707e2;
+}
+.question:hover{
+    position: relative;
+    top: -2px;
+    left: -2px;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
