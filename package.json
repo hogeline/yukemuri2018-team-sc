@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "gh-pages": "^1.2.0",
-    "query-string": "^6.1.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-router-dom": "^4.3.1",
