@@ -36,7 +36,7 @@ class Top extends Component {
     return (
       <div className="top">
         <div className="top-landing">
-          <div className="top-landing-logo">ロゴ</div>
+          <div className="top-landing-logo">rankedtail</div>
           <div className="top-landing-title">
             <h1>
               スキルレベルに合った
@@ -64,167 +64,28 @@ class Top extends Component {
                 質問レベル
                 <br />
                 <div className="top-search-levels">
-                  <input
-                    type="radio"
-                    name="level"
-                    value="beginner"
-                    onChange={e => this.handleOnChangeLevel(e)}
-                  />
-                  ビギナー
-                  <input
-                    type="radio"
-                    name="level"
-                    value="normal"
-                    onChange={e => this.handleOnChangeLevel(e)}
-                  />
-                  ノーマル
-                  <input
-                    type="radio"
-                    name="level"
-                    value="expert"
-                    onChange={e => this.handleOnChangeLevel(e)}
-                  />
-                  エキスパート
+                  <input type="radio" id="label-beginner" name="level" value="beginner" onChange={e => this.handleOnChangeLevel(e)}/><label for="label-beginner">ビギナー</label>
+                  <input type="radio" id="label-normal" name="level" value="normal" onChange={e => this.handleOnChangeLevel(e)}/><label for="label-normal">ノーマル</label>
+                  <input type="radio" id="label-expert" name="level" value="expert" onChange={e => this.handleOnChangeLevel(e)}/><label for="label-expert">エキスパート</label>
                 </div>
-                <br />
-                絞り込みタグ
-                <br />
-                <div className="top-search-tags">
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="CakePHP"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    CakePHP
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="Laravel"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    Laravel
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="Perl"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    Perl
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="AngularJS"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    AngularJS
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="Oracle"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    Oracle
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="Eclipse"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    Eclipse
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="Apache"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    Apache
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="CentOS"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    CentOS
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="Struts"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    Struts
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="Vim"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    Vim
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="Python"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    Python
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="Swift"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    Swift
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="CSS3"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    CSS3
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="nginx"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    nginx
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="tag"
-                      value="Linux"
-                      onChange={e => this.handleOnChangeTag(e)}
-                    />
-                    Linux
-                  </div>
+                <br/>
+                絞り込みタグ<br/>
+                <div className="top-search-tags">     
+                  <div><input type="radio" name="tag" id="label-CakePHP" value="CakePHP" onChange={e => this.handleOnChangeTag(e)} /><label for="label-CakePHP">CakePHP</label></div>
+                  <div><input type="radio" name="tag" id="label-Laravel" value="Laravel" onChange={e => this.handleOnChangeTag(e)}/><label for="label-Laravel">Laravel </label></div>
+                  <div><input type="radio" name="tag" id="label-Perl" value="Perl"onChange={e => this.handleOnChangeTag(e)} /><label for="label-Perl">Perl</label></div>
+                  <div><input type="radio" name="tag" id="label-AngularJS" value="AngularJS" onChange={e => this.handleOnChangeTag(e)}/><label for="label-AngularJS">AngularJS</label></div>
+                  <div><input type="radio" name="tag" id="label-Oracle" value="Oracle" onChange={e => this.handleOnChangeTag(e)}/><label for="label-Oracle">Oracle</label></div>
+                  <div><input type="radio" name="tag" id="label-Eclipse" value="Eclipse" onChange={e => this.handleOnChangeTag(e)}/><label for="label-Eclipse">Eclipse</label></div>
+                  <div><input type="radio" name="tag" id="label-Apache" value="Apache" onChange={e => this.handleOnChangeTag(e)} /><label for="label-Apache">Apache</label></div>
+                  <div><input type="radio" name="tag" id="label-CentOS" value="CentOS" onChange={e => this.handleOnChangeTag(e)}/><label for="label-CentOS">CentOS</label></div>
+                  <div><input type="radio" name="tag" id="label-Struts" value="Struts" onChange={e => this.handleOnChangeTag(e)}/><label for="label-Struts">Struts</label></div>
+                  <div><input type="radio" name="tag" id="label-Vim" value="Vim" onChange={e => this.handleOnChangeTag(e)}/><label for="label-Vim">Vim</label></div>
+                  <div><input type="radio" name="tag" id="label-Python" value="Python" onChange={e => this.handleOnChangeTag(e)}/><label for="label-Python">Python</label></div>
+                  <div><input type="radio" name="tag" id="label-Swift" value="Swift" onChange={e => this.handleOnChangeTag(e)}/><label for="label-Swift">Swift</label></div>
+                  <div><input type="radio" name="tag" id="label-CSS3" value="CSS3" onChange={e => this.handleOnChangeTag(e)}/><label for="label-CSS3">CSS3</label></div>
+                  <div><input type="radio" name="tag" id="label-nginx" value="nginx" onChange={e => this.handleOnChangeTag(e)}/><label for="label-nginx">nginx</label></div>
+                  <div><input type="radio" name="tag" id="label-Linux" value="Linux" onChange={e => this.handleOnChangeTag(e)}/><label for="label-Linux">Linux</label></div>
                 </div>
               </form>
             </div>

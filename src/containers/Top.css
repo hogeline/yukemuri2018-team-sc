@@ -18,11 +18,12 @@
 
 }
 .top-landing-logo {
+    font-family: "ヒラギノ角ゴ Pro W3";
+    color: white;
     text-align: center;
     padding: 20px 50px;
     width: 150px;
-    border: 1px solid #bdbbbb;
-    font-size: 24px;
+    font-size: 45px;
 }
 .top-landing-title h1 {
     margin-top: 33vh;
@@ -81,7 +82,8 @@
     font-size: 18px;
     margin: 20px;
     width: auto;
-    height: 30vh;
+    height: 50vh;
+    border: 1px solid #bdbbbb;
 }
 .top-search-tags{
     display: flex;
@@ -94,6 +96,74 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+
+.top-search-levels{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  
+  .top-search-levels label{
+    color: #222;
+    padding: 10px 0;
+    width: 32%;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .top-search-levels label:hover{
+    background-color: white;
+  }
+  
+  .top-search-levels input[type="radio"]:checked + label {
+    color: white;
+    background-color: #5280ff;
+    border: 1px solid #ccc;
+  }
+
+  .top-search-levels input{
+    display: none;
+  }
+  
+  .top-search-tags input{
+    display: none;
+  }
+
+.top-search-tags{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  height: 30vh;
+}
+
+.top-search-tags label{
+  color: #222;
+
+  margin-right: 5px;
+  background-color: #ccc;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+}
+
+.top-search-tags label:hover{
+  background-color: white;
+}
+.top-search-tags input[type="radio"]:checked + label {
+  color: white;
+  background-color: #5280ff;
+  border: 1px solid #ccc;
+}
+
+
 
 .top-search-btn {
     margin: 0 auto;

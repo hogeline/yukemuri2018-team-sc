@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import QuestionsList from "./QuestionsList";
+import Header from "./Header"
 // import { getQuestions } from "../apiutil/GetQuestions";
 import dummy from "../dummy.json";
 import "./Search.css";
@@ -35,9 +36,7 @@ class Search extends Component {
   render() {
     return (
       <div className="search">
-        <header className="search-header">
-          <h3 className="search-header-logo">search page</h3>
-        </header>
+        <Header />
         <div className="search-conditions">
           <div className="search-conditions-title">条件</div>
           <div className="search-conditions-level">Easy</div>
