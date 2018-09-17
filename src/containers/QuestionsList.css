@@ -1,0 +1,7 @@
+.questions{
+    display: flex;
+    justify-content: center;
+}
+.questions-container{
+    width: 50%;
+}
